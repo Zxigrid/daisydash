@@ -57,19 +57,19 @@
     @apply w-10 h-10 grid place-items-center rounded-full bg-info/10 text-info;
   }
   .btn-modal-cancel {
-    @apply btn bg-base-200 text-graphite border-transparent rounded-full;
+    @apply btn bg-base-200 text-graphite border-transparent rounded-md;
   }
   .btn-modal-approve.error {
-    @apply btn btn-error bg-error/30 text-error border-transparent hover:text-white rounded-full;
+    @apply btn btn-error bg-error/30 text-error border-transparent hover:text-white rounded-md;
   }
   .btn-modal-approve.success {
-    @apply btn btn-success bg-success/30 text-success border-transparent hover:text-white rounded-full;
+    @apply btn btn-success bg-success/30 text-success border-transparent hover:text-white rounded-md;
   }
   .btn-modal-approve.warning {
-    @apply btn btn-warning bg-warning/30 text-warning border-transparent hover:text-white rounded-full;
+    @apply btn btn-warning bg-warning/30 text-warning border-transparent hover:text-white rounded-md;
   }
   .btn-modal-approve.info {
-    @apply btn btn-info bg-info/30 text-info border-transparent hover:text-white rounded-full;
+    @apply btn btn-info bg-info/30 text-info border-transparent hover:text-white rounded-md;
   }
   /* modal END */
 }
@@ -133,7 +133,7 @@
   }
 
   .input, .select, .file-input {
-    @apply focus:border-transparent focus:outline-offset-0 focus:outline-primary focus-within:border-transparent focus-within:outline-offset-0 focus-within:outline-primary  !important;
+    @apply h-10 min-h-10 rounded-md focus:border-transparent focus:outline-offset-0 focus:outline-primary focus-within:border-transparent focus-within:outline-offset-0 focus-within:outline-primary  !important;
   }
 
   .input:disabled {
