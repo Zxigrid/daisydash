@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "a free admin dashboard made with tailwind css and plugin daisyui",
   "main": "index.html",
-  "repository": "https://github.com/DafiNMaulana/daisydash.git",
-  "author": "DafiNMaulana",
+  "repository": "https://github.com/Zxigrid/daisydash.git",
+  "author": "Zxigrid",
   "license": "MIT",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/daisydash.css -o ./src/style.css --watch"
