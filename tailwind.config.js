@@ -9,6 +9,7 @@ module.exports = {
       },
       boxShadow: {
         'default': '0 0 15px',
+        'default-small': '0 0 10.3px -2px'
       },
       fontFamily: {
         'sans': ['Inter', 'sans-serif', 'ui-sans-serif', 'system-ui'],
